@@ -115,15 +115,15 @@ En la siguiente ilustración podés ver cómo está organizado el proyecto para 
 ├── doc                         # documentacion general del proyecto
 └── src                         # directorio codigo fuente
 │   ├── backend                 # directorio para el backend de la aplicacion
-|   |   ├──mysql                # directorio con archivos necesario para la conexion con la base de datos
-|   |   |   └── index.js        # codigo de conexion a la base de datos         
-|   |   ├──routes               # directorio para las rutas
-|   |   |   ├── device          # directorio para el dispositivo
-|   |   |   |    └── index.js   # codigo referido al dispositivo
-|   |   |   ├── messure         # directorio para las mediciones
-|   |   |   |    └── index.js   # codigo referido a las mediciones
-|   |   |   ├── spray           # directorio para el log de riego
-|   |   |   |    └── index.js   # codigo referido al log de riego
+│   │   ├──mysql                # directorio con archivos necesario para la conexion con la base de datos
+│   │   │   └── index.js        # codigo de conexion a la base de datos         
+│   │   ├──routes               # directorio para las rutas
+│   │   │   ├── device          # directorio para el dispositivo
+│   │   │   │    └── index.js   # codigo referido al dispositivo
+│   │   │   ├── messure         # directorio para las mediciones
+│   │   │   │    └── index.js   # codigo referido a las mediciones
+│   │   │   ├── spray           # directorio para el log de riego
+│   │   │   │    └── index.js   # codigo referido al log de riego
 │   │   ├── index.js            # codigo principal del backend
 │   │   ├── mysql-connector.js  # codigo de conexion a la base de datos
 │   │   ├── package.json        # configuracion de proyecto NodeJS
