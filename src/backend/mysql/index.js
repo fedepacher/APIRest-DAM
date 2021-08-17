@@ -11,6 +11,9 @@ var mysqlConfig = {
 
 var pool = mysql.createPool(mysqlConfig);
 
+/**
+ * Conexion con base de datos a traves de un pool
+ */
 pool.getConnection((err, connection)=>{
     if(err){
         switch(err.code){
